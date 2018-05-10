@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.noel1.lab4s2.MainActivity"
+
+    >
+    <LinearLayout
+        android:id="@+id/Lin1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa0000dd">
+    <TextView
+        android:id="@+id/Lin1T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base Area"
+        android:textSize="25dp"
+         />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lin2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ff00aa00"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/Lin2T"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sliding Area"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:text="Open Page" />
+</FrameLayout>
+
+    
+
+
+
+
