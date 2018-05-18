@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.noel1.lab5s2.MainActivity">
+
+    <TextView
+        android:id="@+id/facto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facto Thread"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:hint="           n"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facto"/>
+<Button
+   android:id="@+id/btn1"
+    android:layout_marginTop="20dp"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/edit1"
+    android:layout_below="@+id/facto"
+    android:text="CALCULATE"
+    />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_below="@id/edit1"
+        android:id="@+id/changeText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:hint="n n-1 n-2 ... "
+        />
+    <TextView
+android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/resultText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="= 1 "
+        android:layout_below="@id/changeText"
+        />
+
+</RelativeLayout>
