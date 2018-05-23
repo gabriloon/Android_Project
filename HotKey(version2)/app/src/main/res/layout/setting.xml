@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setMenu"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+    <TextView
+        android:id="@+id/Setting"
+        android:textSize="40dp"
+        android:textColor="#ddffffff"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Setting"/>
+<FrameLayout
+    android:id="@+id/setFl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textCapWords"
+        android:text="Word"
+        android:textSize="35dp"
+        android:id="@+id/sbtn1"
+        android:scaleType="fitStart">
+    </Button>
+</FrameLayout>
+    <FrameLayout
+        android:id="@+id/setF2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textCapWords"
+        android:text="Battle Ground"
+        android:textSize="25dp"
+        android:id="@+id/sbtn2"
+        android:scaleType="fitStart">
+    </Button>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/setF3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textCapWords"
+            android:text="Touch Pad"
+            android:textSize="30dp"
+            android:id="@+id/sbtn3"
+            android:scaleType="fitStart">
+        </Button>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/sback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:inputType="textCapWords"
+            android:scaleType="fitStart"
+            android:id="@+id/sbackBtn"
+            android:text="Back"></Button>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#ddffffff"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Button3" />
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#fff" />
+
+    <Button
+        android:id="@+id/set3"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="SET"
+        android:textSize="40dp"
+        ></Button>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#fff" />
+
+    <ScrollView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:background="#ffff">
+        <RadioGroup
+            android:id="@+id/rgroup3"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/sethealthBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="구급상자"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/seAdlenBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아드레날린"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/setBand3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="붕대"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/setkit3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="의료용키트"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/PersonalChange3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시점 변경"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/reloading3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="재장전"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/voiceOnOff3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보이스 채팅 On/Off"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/cancel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="무장해제"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/fireIntheHole3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수류탄"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/sitDown3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="앉기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/lie3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="엎드리기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/zeroPointUp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="영점조절 증가"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/zeroPointDown3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="영점조절 감소"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/pinGet3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="핀 뽑기"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/myPositionPick3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="내 현재위치 지도에 표시"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/leftHead3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="고개 왼쪽으로 기울이기"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/rightHead3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="고개 오른쪽으로 기울이기"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                ></RadioButton>
+        </RadioGroup>
+    </ScrollView>
+
+</LinearLayout>
