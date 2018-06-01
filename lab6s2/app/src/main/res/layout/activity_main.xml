@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:stretchColumns="*"
+    tools:context="com.example.noel1.lab6s2.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Shared preference example"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <TableRow
+    android:layout_marginTop="20dp"
+    >
+<TextView
+    android:text="학번"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+    <EditText
+        android:id="@+id/sn"
+        android:layout_span="2"
+        android:hint="..." />
+
+</TableRow>
+    <TableRow >
+
+        <TextView
+            android:text="이름"/>
+        <EditText
+            android:layout_span="2"
+            android:id="@+id/sn2"
+            android:hint="..."
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:text="불러오기"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="저장하기"
+            android:id="@+id/btn2"
+            ></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="초기화"
+            android:id="@+id/btn3"
+            ></Button>
+
+        </TableRow>
+
+
+</TableLayout>
